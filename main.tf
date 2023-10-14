@@ -4,7 +4,7 @@ resource "google_compute_instance" "default" {
   name         = "test"
   machine_type = "e2-medium"
   zone         = "europe-north1-a"
-  project      = "mythical-zodiac-399615"
+  #project      = "mythical-zodiac-399615"
   
   boot_disk {
     initialize_params {
